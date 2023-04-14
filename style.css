@@ -1,0 +1,349 @@
+
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%;
+    line-height: 1;
+}
+/* ------------------------- Header--------------- */
+header{
+    display: flex;
+    gap: 24px;
+    padding-bottom: 5px;
+    margin-left: 70px;
+    margin-right: 70px;
+    /* position: fixed; */
+    /* padding-top: 20px; */
+    cursor: pointer;
+
+
+}
+header li{
+    list-style: none;
+    font-size: 12px;
+
+}
+header li:nth-child(1)
+{
+    color: black;
+    font-weight: 600;
+}
+
+/* ----------  ----- NAVIGATION BAR--------------- */
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 1px solid rgb(181, 178, 178);
+    border-bottom: 1px solid rgb(181, 178, 178);
+    margin-left: 70px;
+    margin-right: 70px;
+}
+nav :nth-child(2){
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+nav section:nth-child(1) a{
+    border: none;
+    color: #c00;
+    font-size: 35px;
+    text-decoration: none;
+}
+#sectionTwo a{
+    padding: 18px 0;
+    
+}
+#magazin{
+    /* position: fixed;
+    top:50px; */
+    border-right: 1px solid lightgray;
+    border-left: 1px solid lightgray;
+
+    color: black;
+    font-size: 10px;
+    text-align: center;
+    text-decoration: none;
+    padding: 11px;
+}
+#mag{
+    position: fixed;
+    top: 25px;
+    padding-left: 10px;
+    align-items: center;
+}
+#search{
+    /* border-right: 1px solid lightgray; */
+    border-left: 1px solid lightgray;
+
+    /* border: 1px solid lightgray; */
+    color: black;
+    font-size: 10px;
+    text-decoration: none;
+    text-align: center;
+
+}
+#srch{
+    position: fixed;
+    top: 25px;
+    right: 82px;
+    padding-left: 10px;
+}
+#liveTV{
+    /* position: absolute; */
+    
+    color: black;
+    /* border: 1px solid lightgray; */
+    font-size: 10px;
+    text-align: center;
+    text-decoration: none;
+}
+#live{
+    position: fixed;
+    top: 25px;
+    right: 120px;
+    /* padding:10px; */
+}
+/* -------------------- Container Sidebar------------ */
+.container{
+    background-color: hwb(210 99% 0%);
+    width: 85%;
+    height: 150px;
+    border: 1px solid lightgray;
+    padding: 20px;
+    cursor: pointer;
+}
+.mainContainer{
+    display:flex;
+    justify-self: center;
+    width: 90%;
+    gap: 10px;
+    margin-top: 10px;
+    
+}
+.sidebar{
+    
+    width: 50px;
+    background-color: rgb(239, 240, 242);
+    height: 1850px;
+    width: 550px;
+    border: 1px solid lightgray;
+    padding-left: 30px;
+    padding-top: 25px;
+    /* padding-right: 20px; */
+    
+}
+
+.container a{
+    border: 1px solid lightgray;
+    text-decoration: none;
+    border-radius: 40px;
+    gap: 20px;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 30px;
+    margin-left: 50px;
+    line-height: 2;
+    padding: 5px;
+    background-color: #F2FAFC;
+}
+/* --------------------------------  Sign IN ----------------------- */
+#btn1{
+    position: relative;
+    bottom: 10px;
+    left: 60px;
+    border-radius:20px;
+    background:white;
+    color: #CC0000;
+    border: 1px solid grey;
+    padding: 6px 10px;
+    size: 50px;
+    width: 80px;
+    text-align: center;
+}
+/* ----------------------------------Dark mode---------------------- */
+
+.dkm{
+    
+    position: relative;
+    bottom: 5px;
+    height: 50px;
+    width: 200px;
+    margin-top: 10px;
+    padding-bottom: 10px;
+    
+    border-top:1px solid lightgray ;
+    border-bottom:1px solid lightgray ;
+}
+.dkm a{
+    position: relative;left: 5px;
+    text-decoration: none;
+    color: black;
+    
+}
+.dkm span{
+    position: relative;
+    bottom: 12px;
+}
+
+.dkm li{
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 10px;
+    list-style: none;
+    margin-bottom: 10px;
+
+}
+/* -------------- sidebar list items----------------- */
+#sideList  li{
+    list-style: none;    
+    margin: 10px;
+    color: rgb(39, 37, 37);
+    font-weight: 5px;
+    font-size: 15px;
+    cursor: pointer;
+    
+}
+#sideList li span{
+    margin-right: 15px;
+}
+
+#sideList span{
+    background-color: #F2FAFC;
+   
+}
+#sideList .material-symbols-outlined{
+    align-items: center;
+    background-color:white;
+    border-radius: 80px;
+    padding: 5px;
+}
+
+/* --------- -----------Advertisment--------------- */
+#advertisement{
+    height: 120px;
+    width: 1000px;
+    background-color: rgb(233, 240, 243);
+    text-align: center;
+    font-size: 10px;
+    margin-top: 15px;
+}
+#advertisement p{
+    padding-top: 10px;
+}
+#advertisement img{
+    width: 800px;
+    height: 70px;
+}
+/* -------------------------stories------------------ */
+
+#story1 img{
+    height: 146px;
+    width: 260px;
+    /* background-color: cadetblue; */
+}
+
+#story2 img{
+    height: 146px;
+    width: 260px;
+    /* background-color: cadetblue; */
+}
+#story3 img{
+    height: 146px;
+    width: 260px;
+    /* background-color: cadetblue; */
+}
+#topStory{
+    display: flex;
+    justify-content:space-evenly;
+    
+    gap:70px
+}
+
+#corosual{
+    display: flex;
+    justify-content: space-between;
+}
+.storyTop{
+    width: 80%;
+    height: 400px;
+    background-color: grey;display: flex;
+}
+
+
+/* ------------------------ second news------------------- */
+
+#secondNews{
+    display: flex;
+    background-color: white;
+    border: 1px solid rgb(238, 236, 236);
+    box-shadow: 1px 1px 1px 0.2px rgba(128, 128, 128, 0.312);
+    margin-bottom: 20px;
+    margin-top: 20px;
+    padding: 15px;
+}
+
+#secondNews .secondone{
+    color: #c00;
+    font-size: 20px;
+}
+#secondImg{
+    width: 150px;
+    height: 150px;
+    border-radius: 30px;
+    margin-right: 20px;
+
+}
+.comment span{
+    margin-right: 150px;
+    color: grey;
+}
+/*  --------------------------  ADVERTIZMENT 2 -------------------------------*/
+#advertisement1{
+    height: 130px;
+    width: 1000px;
+    background-color: rgb(233, 240, 243);
+    text-align: center;
+    font-size: 10px;
+    margin-top: 15px;
+}
+#advertisement p{
+    padding-top: 10px;
+    /* text-align: center; */
+}
+#advertisement img{
+    width: 800px;
+    height: 70px;
+}
+/* --------------------- WHATSAPP BUTTON ----------------------------------- */
+.float{
+	position:fixed;
+	width:60px;
+	height:60px;
+	top:100px;
+	right:30px;
+	background-color:#25d366;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+    font-size:30px;
+	box-shadow: 2px 2px 3px #999;
+    z-index:100;
+}
+
+.my-float{
+	margin-top:16px;
+}
+
+/* ----------------------- Resopnsive Screen ----------------- */
+
+@media  screen and (min-width:768) {
+    #hamburgerMenu{
+        display: block;
+        position: relative;
+        right: 10px;
+    }
+    #hamburgerMenu button img{
+        height: 20px;
+    }
+  }
